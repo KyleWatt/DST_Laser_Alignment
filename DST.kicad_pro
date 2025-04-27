@@ -41,17 +41,23 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -116,7 +122,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.18,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -130,9 +136,9 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.18,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -179,7 +185,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,7 +214,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -471,6 +484,18 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "OUT2B6",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "USB_DF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -485,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "PCB_Desgin/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -596,7 +621,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -611,6 +636,54 @@
     [
       "cf4d8f46-3b3e-4ef2-a306-bbe888c527c6",
       "Root"
+    ],
+    [
+      "ff1eb6d5-9192-4009-b7a2-a19bd13ed29b",
+      "MotorDriver1"
+    ],
+    [
+      "5c1e5e7a-8ccb-4de2-a3bc-3f7352ee623b",
+      "MotorDriver2"
+    ],
+    [
+      "3903b079-1378-4ce9-b008-c916781b3188",
+      "MotorDriver3"
+    ],
+    [
+      "76029fa4-aa94-4169-b97c-0f498e8af583",
+      "MotorDriver4"
+    ],
+    [
+      "b2a66a53-739c-40f5-8de8-8cbc212c4b3e",
+      "MotorDriver5"
+    ],
+    [
+      "f0501b55-b009-4cb3-8d90-8ba3daaff44e",
+      "MotorDriver6"
+    ],
+    [
+      "77d91239-2fe8-4810-a8b1-8fe25dfb81bc",
+      "MotorDriver7"
+    ],
+    [
+      "0715f16f-576a-41e7-857e-915f3aa7cbb3",
+      "MotorDriver8"
+    ],
+    [
+      "b839523b-062b-41ca-b392-573d8460955d",
+      "MotorDriver9"
+    ],
+    [
+      "7205875f-0bab-4f88-928e-9aa70b3abf32",
+      "MotorDriver10"
+    ],
+    [
+      "986292b7-1f07-4573-97c1-fe4afc788d80",
+      "MotorDriver11"
+    ],
+    [
+      "a30b9f38-db07-4da1-810c-dda9441ad49a",
+      "MotorDriver12"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTVS3V3D1BALYL
+D PTVS3V3D1BAL - Ultra compact Transient Voltage Supressor
+K
+F https://assets.nexperia.com/documents/data-sheet/PTVS3V3D1BAL.pdf
+$ENDCMP
+#
+#End Doc Library
