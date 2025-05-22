@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model A11JP
+#/638765/1487184/2.50/2/4/Switch
+DEF A11JP S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "A11JP" 750 200 50 H V L CNN
+F2 "A11JP" 750 100 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/295/Atoggles-19525.pdf" 750 0 50 H I L CNN
+F4 "Switch Toggle OFF None ON SPST Bat Lever PC Pins 0.1A 28VAC 28VDC 0.4VA PC Mount" 750 -100 50 H I L CNN "Description"
+F5 "19.4" 750 -200 50 H I L CNN "Height"
+F6 "633-A11JP" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/NKK-Switches/A11JP?qs=KqcCwYXy5KGYGAOWVYZnow%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "NKK Switches" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "A11JP" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X NC_2 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

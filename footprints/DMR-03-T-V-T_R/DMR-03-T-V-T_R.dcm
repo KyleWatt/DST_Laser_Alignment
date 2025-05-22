@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMR-03-T-V-T_R
+D 	 3 positions SMD-6P,6.2x8.6mm DIP Switches
+K
+F http://www.dip.com.tw/en/en-product-information/en-switch002/item/2374-dm-r-dj-r-dl-r
+$ENDCMP
+#
+#End Doc Library

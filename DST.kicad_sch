@@ -5,15 +5,15 @@
 	(uuid "cf4d8f46-3b3e-4ef2-a306-bbe888c527c6")
 	(paper "A1")
 	(lib_symbols
-		(symbol "100SP1T2B4M7QE:100SP1T2B4M7QE"
+		(symbol "150080GS75000:150080GS75000"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at -5.08 6.35 0)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,170 +21,101 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "100SP1T2B4M7QE"
-				(at -5.08 -6.096 0)
+			(property "Value" "150080GS75000"
+				(at 12.7 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "100SP1T2B4M7QE:SW_100SP1T2B4M7QE"
+			(property "Footprint" "LEDM2012X80N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://katalog.we-online.com/led/datasheet/150080GS75000.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "0.8"
+				(at 12.7 -393.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "710-150080GS75000"
+				(at 12.7 -493.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MF" "E-Switch"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
+				(at 12.7 -593.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "12.8 mm"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -693.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "150080GS75000"
+				(at 12.7 -793.65 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/100SP1T2B4M7QE/E-Switch/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/100SP1T2B4M7QE/E-Switch/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "100SP1T2B4M7QE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "SWITCH TOGGLE SPDT 5A 120V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "E-switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "100SP1T2B4M7QE_0_0"
+			(symbol "150080GS75000_1_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
+						(xy 2.54 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -193,32 +124,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
+						(xy 5.08 2.54) (xy 5.08 -2.54)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -227,10 +136,34 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 2.921 2.54)
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -239,10 +172,34 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 2.921 -2.54)
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -250,55 +207,37 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at 0 0 0)
 					(length 2.54)
-					(name "~"
+					(name "K"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 15.24 0 180)
 					(length 2.54)
-					(name "~"
+					(name "A"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -931,6 +870,176 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1MS3T1B1M2QES:1MS3T1B1M2QES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1MS3T1B1M2QES"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1MS3T1B1M2QES"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/979/Dailywell_10082019_1M_Series-1660460.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Toggle Switches SWITCH TOGGLE SPDT, PC Thru-Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "28.19"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "118-1MS3T1B1M2QES"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/1MS3T1B1M2QES?qs=B6kkDfuK7%2FBkAnh8nbaocw%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Dailywell"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1MS3T1B1M2QES"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1MS3T1B1M2QES_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COMM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1676,390 +1785,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "219-3LPSTR:219-3LPSTR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at -4.8433 5.6247 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "219-3LPSTR"
-				(at -5.0986 -6.388 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "219-3LPSTR:SW_219-3LPSTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "CTS CORP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Switch DIP ON OFF SPST 3 Flush Slide 0.1A 20VDC Gull Wing 2000Cycles 2.54mm SMD T/R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/219-3LPSTR/CTS+Components/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/219-3LPSTR/CTS+Components/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "219-3LPSTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "CTS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "219-3LPSTR_0_0"
-				(rectangle
-					(start -3.302 -3.81)
-					(end 3.302 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "5-146280-3:5-146280-3"
 			(pin_names
 				(offset 1.016)
@@ -2300,260 +2025,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "5988170107F:5988170107F"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -4.064 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5988170107F"
-				(at -4.064 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "5988170107F:LEDC2012X70N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Dialight"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Green 566nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "0805 Dialight"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/5988170107F/Dialight/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/5988170107F/Dialight/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "5988170107F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Dialight"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "5988170107F_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.524) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 -1.524)
-					(end 2.54 1.524)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.032) (xy 2.54 4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 2.032) (xy 3.556 4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4641,6 +4112,230 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NDS-03V:NDS-03V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NDS-03V"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NDS03V"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.dip.com.tw/en/en-product-information/en-switch002/item/download/2801_75d46d914c6d8fce9115804902554e31"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIP Switches / SIP Switches Dip switch Slide Type"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.05"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "113-NDS03V"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diptronics/NDS-03V?qs=MLItCLRbWswWgVrYVV%2FkPQ%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diptronics"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NDS-03V"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "NDS-03V_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "COM_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "N.O._1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "N.O._2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "N.O._3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -7891,6 +7586,12 @@
 		(uuid "fde720e6-ea1e-4624-b0a7-d82e29f4c8e9")
 	)
 	(junction
+		(at 309.88 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ebea53-7748-4eb5-ad21-5e64e0112617")
+	)
+	(junction
 		(at 128.27 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7979,12 +7680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3eb43c79-8859-47af-a531-c67a51f992b6")
-	)
-	(junction
-		(at 292.1 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e61906f-fb8c-4f7c-a94d-0a29dd466bd7")
 	)
 	(junction
 		(at 251.46 246.38)
@@ -8179,12 +7874,6 @@
 		(uuid "a97ac217-5106-4bf3-a9fd-53df7e2fa00e")
 	)
 	(junction
-		(at 292.1 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9a084fa-30fd-48a7-8bae-774c29b5b8e2")
-	)
-	(junction
 		(at 213.36 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8237,6 +7926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde75f5a-b1ef-4b43-a50d-558530bd4d8e")
+	)
+	(junction
+		(at 309.88 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1edc75e-0deb-45df-8dd1-7bfd63516ec7")
 	)
 	(junction
 		(at 156.21 153.67)
@@ -8353,6 +8048,10 @@
 		(uuid "f535dfea-bb2b-495f-89cf-a324a3967b7e")
 	)
 	(no_connect
+		(at 200.66 110.49)
+		(uuid "13bbb4c7-1e07-4517-9a90-49592b4cadfd")
+	)
+	(no_connect
 		(at 186.69 212.09)
 		(uuid "6638447b-3911-4f29-bc5d-c3e9094ae475")
 	)
@@ -8367,10 +8066,6 @@
 	(no_connect
 		(at 186.69 204.47)
 		(uuid "d48bcb84-e513-4c78-a917-e9ad0e672f63")
-	)
-	(no_connect
-		(at 210.82 96.52)
-		(uuid "dbfbd2ed-668f-4e7c-94da-b3a053b9eef0")
 	)
 	(wire
 		(pts
@@ -8661,6 +8356,16 @@
 			(type default)
 		)
 		(uuid "10116720-0b96-4d04-bdcd-a6838a703a84")
+	)
+	(wire
+		(pts
+			(xy 309.88 248.92) (xy 309.88 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1037f729-5731-4a00-8a09-cd18eb8f6169")
 	)
 	(wire
 		(pts
@@ -10054,16 +9759,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 243.84) (xy 292.1 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a8368b-0555-45ad-a534-c801b3e2673c")
-	)
-	(wire
-		(pts
 			(xy 203.2 161.29) (xy 212.09 161.29)
 		)
 		(stroke
@@ -10124,6 +9819,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 246.38) (xy 309.88 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6595425c-aacf-477d-9099-170e3fd76f54")
+	)
+	(wire
+		(pts
 			(xy 383.54 144.78) (xy 387.35 144.78)
 		)
 		(stroke
@@ -10151,16 +9856,6 @@
 			(type default)
 		)
 		(uuid "66b47d77-d81c-4122-be14-d5d7794c1494")
-	)
-	(wire
-		(pts
-			(xy 189.23 255.27) (xy 189.23 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66bac10d-7e56-4dbc-bfdb-4b38c25cd151")
 	)
 	(wire
 		(pts
@@ -10251,6 +9946,16 @@
 			(type default)
 		)
 		(uuid "6c69e0c9-a679-4a31-afce-2190b6098598")
+	)
+	(wire
+		(pts
+			(xy 309.88 243.84) (xy 309.88 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c837f1b-aefe-4a59-8b23-a02112fac29d")
 	)
 	(wire
 		(pts
@@ -10461,6 +10166,16 @@
 			(type default)
 		)
 		(uuid "7d3bb8e6-d01c-4057-93d4-f36bd55526d3")
+	)
+	(wire
+		(pts
+			(xy 273.05 13.97) (xy 281.94 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df20b1f-625a-4036-b5e7-28916b39b42e")
 	)
 	(wire
 		(pts
@@ -10764,16 +10479,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 246.38) (xy 292.1 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a648436-5f12-4d85-a8d2-bd4536550e60")
-	)
-	(wire
-		(pts
 			(xy 107.95 170.18) (xy 107.95 162.56)
 		)
 		(stroke
@@ -10781,16 +10486,6 @@
 			(type default)
 		)
 		(uuid "8a8f8911-2110-41bd-babc-f23b252e2bb7")
-	)
-	(wire
-		(pts
-			(xy 292.1 243.84) (xy 292.1 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae124cf-2cc7-40a8-b5bf-656cca418559")
 	)
 	(wire
 		(pts
@@ -10864,6 +10559,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 107.95) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc5183f-015a-4fe6-b118-bae70fbe8886")
+	)
+	(wire
+		(pts
 			(xy 143.51 284.48) (xy 147.32 284.48)
 		)
 		(stroke
@@ -10871,6 +10576,16 @@
 			(type default)
 		)
 		(uuid "8e9088c1-5117-4725-86dd-76fbcd01e7c5")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee1f549-da95-48ed-a9fb-0607695229c2")
 	)
 	(wire
 		(pts
@@ -10894,13 +10609,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 16.51) (xy 281.94 16.51)
+			(xy 307.34 243.84) (xy 309.88 243.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91c9f780-0717-46c6-8a56-46b1f8405ae3")
+		(uuid "90ab0f9a-fd93-479a-b2ec-5bdb8b5fb7b1")
 	)
 	(wire
 		(pts
@@ -11044,6 +10759,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 246.38) (xy 309.88 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab33cbb-b617-4c60-84ef-f77aa3ae531a")
+	)
+	(wire
+		(pts
 			(xy 48.26 168.91) (xy 64.77 168.91)
 		)
 		(stroke
@@ -11071,16 +10796,6 @@
 			(type default)
 		)
 		(uuid "9c61de7c-c91c-4d2b-b977-9e3510ac32fa")
-	)
-	(wire
-		(pts
-			(xy 292.1 248.92) (xy 292.1 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d7baac4-f55b-4be3-9462-8db0e2ce572b")
 	)
 	(wire
 		(pts
@@ -11154,16 +10869,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 246.38) (xy 292.1 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ff9820f-6371-454e-8b91-05d40412258b")
-	)
-	(wire
-		(pts
 			(xy 20.32 106.68) (xy 27.94 106.68)
 		)
 		(stroke
@@ -11191,16 +10896,6 @@
 			(type default)
 		)
 		(uuid "a23aba65-2487-4516-b7b9-93973e788fcd")
-	)
-	(wire
-		(pts
-			(xy 209.55 91.44) (xy 213.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23e4244-45dd-464c-bdda-1ffe96153188")
 	)
 	(wire
 		(pts
@@ -11474,16 +11169,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 248.92) (xy 289.56 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1242543-03de-41dd-a88a-266285248eee")
-	)
-	(wire
-		(pts
 			(xy 368.3 83.82) (xy 368.3 85.09)
 		)
 		(stroke
@@ -11564,16 +11249,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 252.73) (xy 170.18 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54e3542-04d7-48f3-827b-676d6eb4a9e6")
-	)
-	(wire
-		(pts
 			(xy 378.46 179.07) (xy 382.27 179.07)
 		)
 		(stroke
@@ -11621,6 +11296,16 @@
 			(type default)
 		)
 		(uuid "b882a37f-4ed1-462e-8e29-faa7c5dd4b5d")
+	)
+	(wire
+		(pts
+			(xy 176.53 252.73) (xy 170.18 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3c7023-bc98-4bf1-8470-ba7171f7f1bb")
 	)
 	(wire
 		(pts
@@ -11914,16 +11599,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 252.73) (xy 189.23 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ba8817-b3a7-4164-8bcc-47037d0a992c")
-	)
-	(wire
-		(pts
 			(xy 449.58 60.96) (xy 453.39 60.96)
 		)
 		(stroke
@@ -11961,6 +11636,26 @@
 			(type default)
 		)
 		(uuid "ca5a5f36-f5e8-45a3-963d-cc2936985be7")
+	)
+	(wire
+		(pts
+			(xy 191.77 252.73) (xy 196.85 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7614f1-eee5-4a63-b54d-a4704dd90af8")
+	)
+	(wire
+		(pts
+			(xy 196.85 252.73) (xy 196.85 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb226e5b-e612-4527-948d-4d4c85104681")
 	)
 	(wire
 		(pts
@@ -12054,16 +11749,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 96.52) (xy 210.82 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb4e9b6-0334-4540-ae59-9cea8b498b1f")
-	)
-	(wire
-		(pts
 			(xy 311.15 57.15) (xy 316.23 57.15)
 		)
 		(stroke
@@ -12111,16 +11796,6 @@
 			(type default)
 		)
 		(uuid "d5ded2f6-dd6a-4341-96a4-0c7641231e55")
-	)
-	(wire
-		(pts
-			(xy 185.42 93.98) (xy 186.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f160a7-ee22-4684-9290-e03e6b2afa6c")
 	)
 	(wire
 		(pts
@@ -12224,7 +11899,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 16.51) (xy 281.94 20.32)
+			(xy 281.94 13.97) (xy 281.94 20.32)
 		)
 		(stroke
 			(width 0)
@@ -12354,7 +12029,7 @@
 	)
 	(wire
 		(pts
-			(xy 468.63 158.75) (xy 468.63 163.83)
+			(xy 468.63 158.75) (xy 468.63 162.56)
 		)
 		(stroke
 			(width 0)
@@ -12584,6 +12259,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 104.14) (xy 200.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f130e0ea-27a0-471f-ac0b-df2af070cc3e")
+	)
+	(wire
+		(pts
 			(xy 400.05 144.78) (xy 403.86 144.78)
 		)
 		(stroke
@@ -12664,6 +12349,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 248.92) (xy 307.34 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70e8a2d-77e3-45ed-b364-21f1affb2120")
+	)
+	(wire
+		(pts
 			(xy 530.86 179.07) (xy 534.67 179.07)
 		)
 		(stroke
@@ -12741,6 +12436,16 @@
 			(type default)
 		)
 		(uuid "fa08566c-0f35-45de-b9e3-623d174ffdea")
+	)
+	(wire
+		(pts
+			(xy 187.96 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa32a97e-133a-4edd-9711-5052dc311ee8")
 	)
 	(wire
 		(pts
@@ -13012,7 +12717,7 @@
 		)
 		(uuid "04ea707f-dd10-4a24-abb8-38951661de51")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 468.63 82.55 270)
 		(effects
 			(font
@@ -13292,7 +12997,7 @@
 		)
 		(uuid "2085aed7-04da-44ea-88bb-dbac0174fca2")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 419.1 163.83 270)
 		(effects
 			(font
@@ -13562,7 +13267,7 @@
 		)
 		(uuid "43b875c8-a67d-4802-8b0d-dc4ddffebc31")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 521.97 82.55 270)
 		(effects
 			(font
@@ -13572,7 +13277,7 @@
 		)
 		(uuid "442dbd2a-dbf6-465e-bf20-15442ff854c7")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 468.63 121.92 270)
 		(effects
 			(font
@@ -13682,7 +13387,7 @@
 		)
 		(uuid "53110a2b-12f4-4175-adf7-5167c529d588")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 147.32 264.16 0)
 		(effects
 			(font
@@ -13972,7 +13677,7 @@
 		)
 		(uuid "6fef8b1a-8586-4b38-9e55-34544f281b27")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 521.97 163.83 270)
 		(effects
 			(font
@@ -14022,7 +13727,7 @@
 		)
 		(uuid "780d8f1d-3a4c-42fe-88c1-7ba7c62854a0")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 521.97 121.92 270)
 		(effects
 			(font
@@ -14102,7 +13807,7 @@
 		)
 		(uuid "7e399b3c-6e2b-4717-a24e-1444ec4d57db")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 419.1 121.92 270)
 		(effects
 			(font
@@ -14161,16 +13866,6 @@
 			(justify right bottom)
 		)
 		(uuid "8b9f6e71-b401-4edf-8268-07187165a8bf")
-	)
-	(label "12V_IN"
-		(at 185.42 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e3d60d2-6377-4501-8394-6775156d64d8")
 	)
 	(label "OUT2A3"
 		(at 449.58 63.5 180)
@@ -14312,7 +14007,7 @@
 		)
 		(uuid "9d440604-8b46-4dd9-96ea-199b16ce9507")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 419.1 82.55 270)
 		(effects
 			(font
@@ -14361,6 +14056,16 @@
 			(justify left bottom)
 		)
 		(uuid "a04e5972-5cb8-4b68-a316-a8f01e2f3cfc")
+	)
+	(label "12V_IN"
+		(at 187.96 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0dc3cac-007a-466b-8d46-69a5b0cb0e34")
 	)
 	(label "EXT_GPIO14"
 		(at 147.32 302.26 0)
@@ -14502,8 +14207,8 @@
 		)
 		(uuid "ac3c993d-7ed2-4f98-823b-f562f462c899")
 	)
-	(label "RESET_N"
-		(at 468.63 163.83 270)
+	(label "ENABLE_N"
+		(at 468.63 162.56 270)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -14752,7 +14457,7 @@
 		)
 		(uuid "cad70db8-a64d-4ac5-8189-81f67a8f6c2b")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 368.3 85.09 270)
 		(effects
 			(font
@@ -14772,7 +14477,7 @@
 		)
 		(uuid "cb724f78-ee2c-4929-b966-16fb3fbd0204")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 368.3 121.92 270)
 		(effects
 			(font
@@ -15102,7 +14807,7 @@
 		)
 		(uuid "f6eabf47-9f67-4796-a872-b62461462e4a")
 	)
-	(label "RESET_N"
+	(label "ENABLE_N"
 		(at 368.3 163.83 270)
 		(effects
 			(font
@@ -15204,7 +14909,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 213.36 91.44 270)
+		(at 196.85 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15213,7 +14918,7 @@
 		(fields_autoplaced yes)
 		(uuid "01a2da2f-b5fc-4d1b-a7bf-969a1bb27b02")
 		(property "Reference" "#PWR0242"
-			(at 209.55 91.44 0)
+			(at 200.66 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,7 +14927,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 217.17 91.4399 90)
+			(at 193.04 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15231,7 +14936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 91.44 0)
+			(at 196.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +14945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 91.44 0)
+			(at 196.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15249,7 +14954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 213.36 91.44 0)
+			(at 196.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15399,265 +15104,6 @@
 			(project "DST"
 				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "100SP1T2B4M7QE:100SP1T2B4M7QE")
-		(at 201.93 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0850eda2-034d-486d-96a6-73ff9b13bb47")
-		(property "Reference" "S1"
-			(at 201.93 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100SP1T2B4M7QE"
-			(at 201.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "100SP1T2B4M7QE:SW_100SP1T2B4M7QE"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "12.8 mm"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/100SP1T2B4M7QE/E-Switch/view-part/?ref=eda"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "E"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/100SP1T2B4M7QE/E-Switch/view-part/?ref=snap"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "100SP1T2B4M7QE"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SWITCH TOGGLE SPDT 5A 120V"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "E-switch"
-			(at 201.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e4cc802-d19e-4edf-9215-c5e02e9169e1")
-		)
-		(pin "3"
-			(uuid "273c13e9-97bd-4a6d-b9ec-cf8ab7c7ca0b")
-		)
-		(pin "1"
-			(uuid "feb61a34-3571-46a4-9f67-6acfcf532f37")
-		)
-		(instances
-			(project ""
-				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 280.67 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ba54b7c-0303-4b32-b541-68f0ebdcd172")
-		(property "Reference" "#FLG03"
-			(at 282.575 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 284.48 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 280.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 280.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 280.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "329a814c-3a1b-42a3-b03a-ad021ad97b88")
-		)
-		(instances
-			(project "DST"
-				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -16395,6 +15841,131 @@
 		)
 	)
 	(symbol
+		(lib_id "1MS3T1B1M2QES:1MS3T1B1M2QES")
+		(at 200.66 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e095494-066d-4f2e-b487-535f3724cc91")
+		(property "Reference" "S2"
+			(at 219.71 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1MS3T1B1M2QES"
+			(at 219.71 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1MS3T1B1M2QES"
+			(at 219.71 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/979/Dailywell_10082019_1M_Series-1660460.pdf"
+			(at 219.71 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Toggle Switches SWITCH TOGGLE SPDT, PC Thru-Hole"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "28.19"
+			(at 219.71 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "118-1MS3T1B1M2QES"
+			(at 219.71 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Dailywell/1MS3T1B1M2QES?qs=B6kkDfuK7%2FBkAnh8nbaocw%3D%3D"
+			(at 219.71 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Dailywell"
+			(at 219.71 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1MS3T1B1M2QES"
+			(at 219.71 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55cc98a6-fc9d-4763-86f3-069c29b3a39e")
+		)
+		(pin "1"
+			(uuid "75f2f1ee-57c9-4430-8ee5-0e3e9f88e6f4")
+		)
+		(pin "3"
+			(uuid "6eab00e5-24b7-4f49-b028-6a451cfc4545")
+		)
+		(instances
+			(project ""
+				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 185.42 180)
 		(unit 1)
@@ -16857,165 +16428,6 @@
 			(project "DST"
 				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
 					(reference "#PWR0192")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "5988170107F:5988170107F")
-		(at 177.8 252.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29344af2-b986-46aa-804c-74463999aab0")
-		(property "Reference" "D5"
-			(at 178.3334 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5988170107F"
-			(at 178.3334 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "5988170107F:LEDC2012X70N"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Dialight"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Green 566nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805 Dialight"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/5988170107F/Dialight/view-part/?ref=eda"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5988170107F/Dialight/view-part/?ref=snap"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "5988170107F"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Dialight"
-			(at 177.8 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "b2926802-4883-4b49-8d24-371a719e1f5b")
-		)
-		(pin "A"
-			(uuid "db9ad70b-1efc-4793-9f88-1b9f33e387ac")
-		)
-		(instances
-			(project ""
-				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -20127,187 +19539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "219-3LPSTR:219-3LPSTR")
-		(at 281.94 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fa301aa-e320-4dfd-86e2-3655b4c25010")
-		(property "Reference" "SW3"
-			(at 281.94 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "219-3LPSTR"
-			(at 281.94 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "219-3LPSTR:SW_219-3LPSTR"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "CTS CORP"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Switch DIP ON OFF SPST 3 Flush Slide 0.1A 20VDC Gull Wing 2000Cycles 2.54mm SMD T/R"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/219-3LPSTR/CTS+Components/view-part/?ref=eda"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/219-3LPSTR/CTS+Components/view-part/?ref=snap"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "219-3LPSTR"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CTS"
-			(at 281.94 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6528406b-aa46-4500-a80d-1a907e89af03")
-		)
-		(pin "1"
-			(uuid "67025d5d-d33a-46da-90b1-af9c75300d4b")
-		)
-		(pin "3_1"
-			(uuid "7a7e9673-32e8-402a-aa5a-2faeae25ff98")
-		)
-		(pin "1_1"
-			(uuid "27548d1d-0959-4193-b6bc-8901f5cf6139")
-		)
-		(pin "3"
-			(uuid "baeb7659-a38d-4ef1-ad14-1d1231df2114")
-		)
-		(pin "2_1"
-			(uuid "367d3a29-b704-4302-918f-34a806beeb49")
-		)
-		(instances
-			(project ""
-				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 97.79 0)
 		(unit 1)
@@ -21721,166 +20952,6 @@
 		)
 	)
 	(symbol
-		(lib_id "5988170107F:5988170107F")
-		(at 273.05 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fc0f7c6-e0ba-4add-b6a1-5d59be0fafc5")
-		(property "Reference" "D7"
-			(at 275.59 22.3265 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5988170107F"
-			(at 274.828 28.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "5988170107F:LEDC2012X70N"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Dialight"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Green 566nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805 Dialight"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/5988170107F/Dialight/view-part/?ref=eda"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/5988170107F/Dialight/view-part/?ref=snap"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "5988170107F"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Dialight"
-			(at 273.05 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "0cd5a4a5-e953-4b4f-9a4f-b622fb037c4d")
-		)
-		(pin "A"
-			(uuid "75acda68-3f4e-4330-85af-c6cbefe72c9a")
-		)
-		(instances
-			(project "DST"
-				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 381 181.61 90)
 		(unit 1)
@@ -22960,7 +22031,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 316.23 57.15 270)
+		(at 280.67 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22969,7 +22040,7 @@
 		(fields_autoplaced yes)
 		(uuid "a16fd656-eec1-4505-90cc-29b4f204849b")
 		(property "Reference" "#PWR0187"
-			(at 312.42 57.15 0)
+			(at 276.86 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22978,7 +22049,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 320.04 57.1499 90)
+			(at 284.48 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22987,7 +22058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 57.15 0)
+			(at 280.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22996,7 +22067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 57.15 0)
+			(at 280.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23005,7 +22076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 316.23 57.15 0)
+			(at 280.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23096,7 +22167,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 255.27 0)
+		(at 196.85 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23105,7 +22176,7 @@
 		(fields_autoplaced yes)
 		(uuid "a327fd6d-8bdc-40d3-9f13-4d612bbb379d")
 		(property "Reference" "#PWR0200"
-			(at 189.23 261.62 0)
+			(at 196.85 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23114,7 +22185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 260.35 0)
+			(at 196.85 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23122,7 +22193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 255.27 0)
+			(at 196.85 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23131,7 +22202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 255.27 0)
+			(at 196.85 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23140,7 +22211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 255.27 0)
+			(at 196.85 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23162,7 +22233,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 190.5 93.98 180)
+		(at 194.31 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23171,7 +22242,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad3b0212-5b06-4666-beec-9a27eb00a907")
 		(property "Reference" "D2"
-			(at 190.8175 87.63 0)
+			(at 194.6275 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23179,7 +22250,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 190.8175 90.17 0)
+			(at 194.6275 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23187,7 +22258,7 @@
 			)
 		)
 		(property "Footprint" "SSB43L-E352T:DIOM5436X244N"
-			(at 190.5 93.98 0)
+			(at 194.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23196,7 +22267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 93.98 0)
+			(at 194.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23205,7 +22276,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 190.5 93.98 0)
+			(at 194.31 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24369,8 +23440,128 @@
 		)
 	)
 	(symbol
+		(lib_id "150080GS75000:150080GS75000")
+		(at 176.53 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3d070f0-591e-4a22-a12f-e0956d4206eb")
+		(property "Reference" "LED1"
+			(at 184.15 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150080GS75000"
+			(at 184.15 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KiCad:LEDM2012X80N"
+			(at 189.23 346.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://katalog.we-online.com/led/datasheet/150080GS75000.pdf"
+			(at 189.23 446.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package"
+			(at 176.53 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 189.23 646.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080GS75000"
+			(at 189.23 746.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
+			(at 189.23 846.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 189.23 946.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080GS75000"
+			(at 189.23 1046.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a43e5a-538a-4bc2-bfe1-3d51e92dd263")
+		)
+		(pin "2"
+			(uuid "38b96c4c-2653-4272-93f9-63fe5c828980")
+		)
+		(instances
+			(project ""
+				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 292.1 261.62 0)
+		(at 309.88 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24379,7 +23570,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4fd2ddb-92cd-4946-9c3d-1f06d63a4e61")
 		(property "Reference" "#PWR0193"
-			(at 292.1 267.97 0)
+			(at 309.88 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24388,7 +23579,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 292.1 266.7 0)
+			(at 309.88 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24396,7 +23587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 292.1 261.62 0)
+			(at 309.88 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24405,7 +23596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 261.62 0)
+			(at 309.88 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24414,7 +23605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 292.1 261.62 0)
+			(at 309.88 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25619,6 +24810,128 @@
 		)
 	)
 	(symbol
+		(lib_id "150080GS75000:150080GS75000")
+		(at 273.05 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3917ba5-42b7-4714-bd17-968ca8d5a3c9")
+		(property "Reference" "LED2"
+			(at 276.86 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150080GS75000"
+			(at 276.86 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "KiCad:LEDM2012X80N"
+			(at 366.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://katalog.we-online.com/led/datasheet/150080GS75000.pdf"
+			(at 466.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package"
+			(at 273.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 666.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-150080GS75000"
+			(at 766.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D"
+			(at 866.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 966.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150080GS75000"
+			(at 1066.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb791bc5-3c41-4ec4-9cf0-6dee610a580b")
+		)
+		(pin "2"
+			(uuid "e248e836-49da-4a1f-9339-2040cee7e7c0")
+		)
+		(instances
+			(project "DST"
+				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 72.39 0)
 		(unit 1)
@@ -26686,6 +25999,138 @@
 		)
 	)
 	(symbol
+		(lib_id "NDS-03V:NDS-03V")
+		(at 274.32 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f675a5ce-9e4f-44fe-93b4-f53680397cec")
+		(property "Reference" "S1"
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NDS-03V"
+			(at 290.83 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NDS-03V:NDS03V"
+			(at 303.53 338.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.dip.com.tw/en/en-product-information/en-switch002/item/download/2801_75d46d914c6d8fce9115804902554e31"
+			(at 303.53 438.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIP Switches / SIP Switches Dip switch Slide Type"
+			(at 274.32 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.05"
+			(at 303.53 638.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "113-NDS03V"
+			(at 303.53 738.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diptronics/NDS-03V?qs=MLItCLRbWswWgVrYVV%2FkPQ%3D%3D"
+			(at 303.53 838.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diptronics"
+			(at 303.53 938.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NDS-03V"
+			(at 303.53 1038.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "455164cc-b4de-4bff-9d7e-67631a859fe6")
+		)
+		(pin "3"
+			(uuid "0e00255b-16b7-4a7f-840a-7bd78cd89394")
+		)
+		(pin "5"
+			(uuid "656dfd06-a8ea-4a1d-b00a-66994aff4246")
+		)
+		(pin "1"
+			(uuid "34d442f2-929e-4de4-8472-1dcb1ceabc92")
+		)
+		(pin "2"
+			(uuid "139e9258-f231-438d-840a-8d703400ca17")
+		)
+		(pin "6"
+			(uuid "f7eb80d5-c10c-40c4-95a1-96c129f12e04")
+		)
+		(instances
+			(project ""
+				(path "/cf4d8f46-3b3e-4ef2-a306-bbe888c527c6"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 189.23 57.15 0)
 		(unit 1)
@@ -26850,9 +26295,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 521.97 116.84 270)
-			(uuid "da253e58-6669-4c2f-adc5-bac2bab506dc")
+			(uuid "e5b25f9b-097e-4663-a6e2-878731cbf892")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26963,9 +26408,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 468.63 77.47 270)
-			(uuid "a3e562de-a484-48e1-bfbb-e57179f2796c")
+			(uuid "8245db26-2f28-4f42-8d9d-0c07da76643f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27076,9 +26521,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 419.1 77.47 270)
-			(uuid "4c548c66-df7f-4580-90ad-00d7a721f05a")
+			(uuid "e23bb152-5dbf-4a91-9b9f-f3234ab0bf4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27189,9 +26634,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 419.1 158.75 270)
-			(uuid "662ce583-2cc9-4811-b5db-9dbf23900512")
+			(uuid "188235bd-5c51-47bc-a450-decd7c137b0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27302,9 +26747,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 521.97 77.47 270)
-			(uuid "0526bffa-c372-4fab-8c18-d20610a6fa45")
+			(uuid "723e6cbb-80ee-4114-92f6-089f4cef5527")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27415,9 +26860,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 468.63 116.84 270)
-			(uuid "6ba49c83-7e03-4a5a-8440-5d23d63bfc78")
+			(uuid "496f73e6-8d76-4838-9e3b-80eaec2dff9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27528,9 +26973,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 468.63 158.75 270)
-			(uuid "49e8cd69-1738-4fab-8fa7-4819167ae79c")
+			(uuid "c5e42e61-036b-457f-898d-812e63e0f044")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27641,9 +27086,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 521.97 158.75 270)
-			(uuid "9cf9dd5d-7b46-4ac3-9007-afa5ea943bb4")
+			(uuid "e1f844a8-060d-485c-b4ad-56c024448fda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27754,9 +27199,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 368.3 116.84 270)
-			(uuid "880e0668-0c7f-4378-a013-bd0e237644d1")
+			(uuid "6048d56d-6f4f-44e9-bbec-ec6a2e6e36eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27867,9 +27312,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 368.3 158.75 270)
-			(uuid "1499fa35-2be3-4552-b601-97040a3322d5")
+			(uuid "be0ff355-022b-4d45-9048-0d26f20472af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27980,9 +27425,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 419.1 116.84 270)
-			(uuid "c9da3ed6-4b59-4282-9f3d-fc8dd6fa6d7d")
+			(uuid "8cef4a13-99d0-4d0e-9fa2-1420213b8ef5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28093,9 +27538,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET_N" input
+		(pin "ENABLE_N" input
 			(at 368.3 77.47 270)
-			(uuid "aff754e4-db42-477e-b751-1321eb92b81d")
+			(uuid "9104a16e-a681-477f-ae4f-1438d9800407")
 			(effects
 				(font
 					(size 1.27 1.27)
